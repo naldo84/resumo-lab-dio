@@ -25,6 +25,29 @@ Demonstração dos serviços por Categoria
 
 - **Versão Prévia**: O provider não garante que o recurso continuará.
 
+
+# RESUMO PARA CRIAR UMA MÁQUINA VIRTUAL
+1. **Acesse o Portal do Azure**: Fazer login na Portal do Azure com sua conta.
+
+2. **Navegue até "Máquinas Virtuais"**: Localize e clique em "Máquinas Virtuais" e depois em "Adicionar" ou "Criar".
+   - Definir a subscrição e o Grupo.
+   - Definir detalhes como nome da máquina, região e opções de Zona.
+   - **Selecione uma Imagem**: Escolha o sistema operacional que você deseja usar (por exemplo, Windows, Ubuntu ou outro).
+
+4. **Defina o Tipo de Máquina**: Escolha o tamanho e as especificações da máquina virtual (como quantidade de CPU, RAM, arquitetura, etc.).
+    - Crie um nome de usuário.
+    - Escolha o método de autenticação (senha ou chave SSH).
+    - Configure a rede virtual, sub-rede e regras de segurança (como portas específicas, por exemplo, RDP ou SSH). 
+    - Escolha o tipo de disco (SSD ou HDD) e a capacidade de armazenamento.
+
+5. **Revise e Crie**: Revise todas as configurações. Se tudo estiver correto, clique em "Criar".
+
+6. **Acompanhe a Implantação**: Aguarde a conclusão da implantação no painel de notificações do Azure.
+   - Após a criação, localize sua máquina virtual no painel e faça a conexão. 
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
 # COMPUTAÇÃO EM NUVEM
 
 ## Domínio de Objetivo
@@ -75,4 +98,18 @@ Demonstração dos serviços por Categoria
     - Reduz gastos com manutenção de hardware.
     - Exemplo: Usar máquinas virtuais na AWS e pagar apenas pelo tempo utilizado.
 
-##
+## Benefícios da Nuvem
+  - **Alta Disponibilidade**: Recursos disponível sempre que necessário. Associado ao SLA.
+    - Se concentra em garantir a disponibilidade máxima, independente de interrupções ou eventos que possam ocorrer.
+  - **Escalabilidade**: É a capacidade de ajustar rcursos apra atender à demanda.
+    - É possível adicionar mais recursos para lidar melhor com o aumento da demanda.
+  - **Elasticidade**: É a possibilidade de aumentar (automaticamente ou manualmente) os recursos, conforme a necessidade.
+    - Ex: É possível adicionar máquinas virtuais eou contêineres por meio da expansão.
+  - **Confiabilidade**: Devido ao design descentralizado, a nuvem naturalmente dá suporte a uma infraestrutura confiável e resiliente.
+    - Dessa forma é possível ter recursos implantados em várias regiões do mundo.
+  - **Previsibilidade**: Com a cloud, permite que se avance com confiança, seja no desempenho ou no custo.
+  - **Segurança**: Há várias ferramentas que atendem às necessidades dos clientes, importante lembrar que a implementação de muitas delas devem ser realizadas pelo cliente.
+  - **Governança**: Ao estabelecer uma presença de governança o mais cedo possível, você poderá manter sua presença de nuvem atualizada, protegida e bem gerenciada
+    - A auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com seus padrões corporativos e fornece estratégias de mitigação.
+  - **Gerenciabilidade**: São as opções de capacidade de gerenciamento. Há dois tipos que trazem excelentes benefícios.
+    - O gerenciamento na nuvem diz respeito à maneira de gerenciar o ambiente: Por meio do Portal Web, linha de comando, usando APIs, usando PowerShell.
