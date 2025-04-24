@@ -67,10 +67,25 @@ Demonstração dos serviços por Categoria
 4. **Backup e Recuperação**
    - Configure backup automático para garantir a recuperação de dados.
 
+# CONSTRUINDO ARQUITETURA NO AZURE
+1.  **Criando um Grupo de Recursos**
+    - Acesse o Portal do Azure e localize Grupo de Recursos
+    - Escolha a assinatura
+    - Defina um nome para o Grupo de Recursos
+    - Esolha a região
+    - Inclua marcações (opcional)
+    - Revise e Crie e finalize clicando em Criar.
+2. **Criando Vnet**
+  - Acesse o Portal do Azure e localize Grupo de Recursos
+  - Escolha a assinatura e o Grupo de Recursos
+  - Defina um nome para a Vnet 
+  - Defina a região
+  - Clique em Analisar e Criar e depois Criar
+
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-
+# - MÓDULO 1 - 
 # COMPUTAÇÃO EM NUVEM
 
 ## Domínio de Objetivo
@@ -147,3 +162,45 @@ Demonstração dos serviços por Categoria
   - Envolve a Iaas e Paas e aplicativo/apps hospedados.
   - Modelo de preço de pagamento conforme o uso.
   - Os usuários pagam pelo software que utilizam em um modelo de assinatura.
+
+# - MÓDULO 2 - 
+# COMPONENTES DE ARQUITETURA DO AZURE
+- ## Regiões: 
+  - São compostas de um ou mais datacenteres muito próximos
+  - Fornecem flexibilidade e escala para reduzir a latência do cliente
+  - Preservam a residência dos dados com uma offerta de abrangente de conformidade
+- ## Zona de disponibilidade:
+  - Fornece proteção contra tempo de inatividade devido a falha do datacenter
+  - Separa fisicamente os datacenteres dentro da mesma região
+  - Cada datacenter é equipado com alimentação, resfriamento e rede independentes
+  - Conectadas por meio de redes privadas de fibra ótica
+- ## Pares de região
+  - No mínimo 300 milhas de separação entre pares de região
+  - Replicação automática para alguns serviços
+  - Recuperação de região priorizada em caso de interrupção
+- ## Regiões soberanas do Azure
+  - Serviços Governamentais dos EUA:
+    - Atende às necessidades de segurança e conformidade das agência federais, governos e locais dos EUA e seus provedores de soluções
+  - Azure Governamental:
+    - Fisicamente separada do Azure
+    - Fisicamente isolada de implantações que não sejam governos dos EUA
+    - Acesível somente a pessoal verificado e autorizado
+  - Azure China
+    - A Microsoft é o primeiro provedor estrangeiro de serviços de nuvem pública da China, em conformidade com as regulamentações governamentais
+    - Instância separada fisicamente dos serviçoes de nuvem do Azure e operados pela 21Vianet
+    - Todos os dados permanecem dentro da China para garantir a conformidade
+- ## Recuros do Azure
+  - São componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem
+- ## Grupo de Recursos
+  - É um contêiner para gerenciar e agregar recursos em uma única unidade.
+  - Os recursos podem existem em apenas um grupo de recursos
+  - Os recursos podem existir em diferente regiões
+  - Podem ser movidos para outros grupos de recursos
+  - Os aplicativos podem utilizar vários grupos de recursos
+- ## Assinaturas do Azure
+  - Fornece a você acesso autenticado e autorizado às contas do Azure
+  - Gerar relatórios de cobrança e faturas separados para cada assinatura
+  - Gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinatura específicas
+- ## Grupos de Gerenciamento
+  - Podem incluir várias assinaturas
+  - As assinaturas herdam as condições aplicadas ao grupo de gerenciamento
