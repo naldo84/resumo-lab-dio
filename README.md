@@ -45,6 +45,29 @@ Demonstração dos serviços por Categoria
 6. **Acompanhe a Implantação**: Aguarde a conclusão da implantação no painel de notificações do Azure.
    - Após a criação, localize sua máquina virtual no painel e faça a conexão. 
 
+# CRIAÇÃO DE INSTÂNCIA DE BANCO DE DADOS NO AZURE
+
+1. **Criando uma Instância Gerenciada do Azure SQL**
+   - Acesse o Portal do Azure e vá até Azure SQL. 
+   - Escolha Instância Gerenciada e clique em Criar.
+   - Defina as configurações básicas, como assinatura, grupo de recursos, nome da instância e região.
+   - Escolha o tamanho da instância, considerando vCore e armazenamento necessário.
+   - Configure a rede virtual para garantir conectividade segura.
+
+2. **Configuração de Segurança e Acesso**
+   - Habilite autenticação do Azure AD para maior segurança.
+   - Defina regras de firewall para permitir conexões seguras.
+   - Configure grupos de segurança de rede para restringir acessos indesejados.
+
+3. **Gerenciamento e Monitoramento**
+   - Utilize Azure Monitor para acompanhar o desempenho da instância.
+   - Configure alertas para monitorar métricas críticas.
+   - Use Azure Automation para tarefas de manutenção automatizadas.
+
+4. **Backup e Recuperação**
+   - Configure backup automático para garantir a recuperação de dados.
+
+
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 
@@ -113,3 +136,14 @@ Demonstração dos serviços por Categoria
     - A auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de conformidade com seus padrões corporativos e fornece estratégias de mitigação.
   - **Gerenciabilidade**: São as opções de capacidade de gerenciamento. Há dois tipos que trazem excelentes benefícios.
     - O gerenciamento na nuvem diz respeito à maneira de gerenciar o ambiente: Por meio do Portal Web, linha de comando, usando APIs, usando PowerShell.
+
+## Tipos de Serviços de Nuvem na Azure
+- **IaaS**: Infraestrutura como Serviço - Ambiente para gerenciamento da infraestrutura sujacente.
+  - Servidores, Firewalls/Segurança de rede e Planta física/Edifício do datacenter.
+- **Paas**: Plataforma como Serviço - fornece um ambiente para criação, o teste e a implantação de aplicativos de softwares, sem focar no gerenciamento da infraestrutura subjacente.
+  - Envolve a Iaas e Sistemas Operacionais e Ferramentas para desenvolvedores, análise de negócios de gerenciamento de database.
+  - 
+- **Saas**: Software como serviço - Os usuários se conectam e sam aplicativos com base em nuvem pela Interneto. Exemplos: Microsoft Office 365, email e calendários.
+  - Envolve a Iaas e Paas e aplicativo/apps hospedados.
+  - Modelo de preço de pagamento conforme o uso.
+  - Os usuários pagam pelo software que utilizam em um modelo de assinatura.
