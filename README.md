@@ -204,3 +204,15 @@ Demonstração dos serviços por Categoria
 - ## Grupos de Gerenciamento
   - Podem incluir várias assinaturas
   - As assinaturas herdam as condições aplicadas ao grupo de gerenciamento
+- ## Serviços de computação do Azure
+  - A computação do Azure é um serviço sob demanda que fornece recursos de computação, como discos, processadores, memória, rede e sistemas operacionais.
+    - **Máquinas Virtuais do Azure**: São emulações de computadores físicos, inclui processador, memória, armazenamento e rede
+    - **Conjunto de dimensionamento de VMs**: Oferecem uma oportunidade de balanceamento de carga dimensionar os recursos automaticamente.
+    - **Conjunto de disponibilidade de VM**: 
+    - **Área de trabalho do Azure**: Criação de um ambiente completo de virtualização da área de trabalho sem precisar executar outros servidores de gateway.
+    - **Serviços de contêineres do Azure**: Fornecem um ambiente leve e virtualizado que não exige o gerenciamento do sistema operacional e pode responder a alterações sob demanda.
+    - **Aplicativos de contêiner do Azure**: uma oferta de PaaS, como instancia de contêineres, que pode balancear a carga e escala.
+    - **Serviço de Kubernetes do Azure**: serviço de orquestração para contêineres com arquiteturas distribuidas e grandes volumes de contêineres.
+    - **Azure Functions**: Oferta de PaaS que dá suporte a operações de computação sem servidor - O código baseado em eventos é executado quando chamado.
+    - **Serviços de Aplicativos do Azure**: Consistem em uma plataforma (PaaS) totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente.
+    - **Serviços de rede do Azure**: permite que os recursos do Azure se comuniquem uns com os outros, com a Internet e com as redes locais.
