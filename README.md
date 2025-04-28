@@ -216,3 +216,29 @@ Demonstração dos serviços por Categoria
     - **Azure Functions**: Oferta de PaaS que dá suporte a operações de computação sem servidor - O código baseado em eventos é executado quando chamado.
     - **Serviços de Aplicativos do Azure**: Consistem em uma plataforma (PaaS) totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente.
     - **Serviços de rede do Azure**: permite que os recursos do Azure se comuniquem uns com os outros, com a Internet e com as redes locais.
+- ## IDENTIDADE, ACESSO E SEGURANÇA
+  - **Microsoft Entra ID**: serviço de gerenciamento de identidades e acesso baseado em nuvem do Microsfoft Azure.
+    - Garante a Autenticação
+    - Logon único (SSO)
+    - Gerenciamento de aplicativos
+    - Negócios para Negócios (B2B)
+    - Gerenciamento de dispositivos
+  - **Autenticação**:
+    - Identifica a pessoa ou serviço buscando acesso a um recurso
+    - Solicita credenciais de acesso legítimo
+    - Base para criar princípios de identidade e controle de acesso seguros
+  - **Autorização**: 
+    - Determina o nível de acesso de uma pessoa ou serviço autenticado
+    - Define quais dados eles podem acessar e o que podem fazer com eles
+  - **Acesso Condicional**: Ferramenta usada para permitir/negar o acesso a recursos baseados em sinais e de identidade
+    - Associação de usuário ou grupo
+    - Local do IP
+    - Dispositivo
+    - Aplicativo
+    - Detecção de risco
+  - **Controle de acesso baseado em função**:
+    - Gerenciamento de acesso de granularidade fina
+    - Divida as tarefas dentro da equipe e conceda somente a quantidade de acesso de que os usuários precisam para trabalhar
+    - Habilite o acesso ao portal do Azure e o controle de acesso ao recursos
+  - **Microsoft Defender para Nuvem**: serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais
+  - 
