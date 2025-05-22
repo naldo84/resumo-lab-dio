@@ -109,6 +109,31 @@ Demonstração dos serviços por Categoria
      - Digitar ou colar o texto a ser analisado
      - Marcar o checkbox e executar (RUN)
 
+# CONHECENDO O AI SEARCH
+1. **Criando o Azure AI Search**
+    - Acesse o Portal do Azure, em Azure Services, clique em AI Search -> Create
+      - Selecionar o Grupo de Recursos, região, definir um nome e Pricing Tier
+      - Clicar em Review + Create -> Create
+2. **Criando um recurso de IA**
+    - Clicar em Create a Resource
+      - Selecione AI + Machine Learning
+      - Azure AI Services -> Create
+      - Selecionar o Grupo de Recursos, região, definir um nome e Pricing Tier
+      - Clicar em Review + Create -> Create
+3. **Criando a conta de Armazenamento**
+    - Clicar em Storage accounts -> Create
+      - Selecionar o Resource group, definir um nome, definir a região, performance e redundância
+      - Review + Create -> Create
+      - Será necessário permitir o acesso de Blob anonymous
+        - Em configuration -> Marcar Enable Allow Blob anonymous access -> Save
+      - Em Data Storage -> Containers -> + Container
+        - Definir o Nome do container e marcar a opção Container (anonymous read access...) -> Create
+        - Após criar o Storage account, acessar o container e fazer o upload dos arquivos (*.docx)
+4. **Testando a busca**
+    - Ir no mecanismos de busca AI Search, clicar no que foi criado
+      - Import data - Selecionar onde dados congnitivos estão armazenados
+    - Clicar em Search explorer - > e fazer a devida pesquisa. Exs: search=*&$count=true ou search=locations:'Chicago'
+
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
