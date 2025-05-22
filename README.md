@@ -34,15 +34,15 @@ Demonstração dos serviços por Categoria
    - Definir detalhes como nome da máquina, região e opções de Zona.
    - **Selecione uma Imagem**: Escolha o sistema operacional que você deseja usar (por exemplo, Windows, Ubuntu ou outro).
 
-4. **Defina o Tipo de Máquina**: Escolha o tamanho e as especificações da máquina virtual (como quantidade de CPU, RAM, arquitetura, etc.).
+3. **Defina o Tipo de Máquina**: Escolha o tamanho e as especificações da máquina virtual (como quantidade de CPU, RAM, arquitetura, etc.).
     - Crie um nome de usuário.
     - Escolha o método de autenticação (senha ou chave SSH).
     - Configure a rede virtual, sub-rede e regras de segurança (como portas específicas, por exemplo, RDP ou SSH). 
     - Escolha o tipo de disco (SSD ou HDD) e a capacidade de armazenamento.
 
-5. **Revise e Crie**: Revise todas as configurações. Se tudo estiver correto, clique em "Criar".
+4. **Revise e Crie**: Revise todas as configurações. Se tudo estiver correto, clique em "Criar".
 
-6. **Acompanhe a Implantação**: Aguarde a conclusão da implantação no painel de notificações do Azure.
+5. **Acompanhe a Implantação**: Aguarde a conclusão da implantação no painel de notificações do Azure.
    - Após a criação, localize sua máquina virtual no painel e faça a conexão. 
 
 # CRIAÇÃO DE INSTÂNCIA DE BANCO DE DADOS NO AZURE
@@ -72,7 +72,7 @@ Demonstração dos serviços por Categoria
     - Acesse o Portal do Azure e localize Grupo de Recursos
     - Escolha a assinatura
     - Defina um nome para o Grupo de Recursos
-    - Esolha a região
+    - Escolha a região
     - Inclua marcações (opcional)
     - Revise e Crie e finalize clicando em Criar.
 2. **Criando Vnet**
@@ -81,6 +81,33 @@ Demonstração dos serviços por Categoria
   - Defina um nome para a Vnet 
   - Defina a região
   - Clique em Analisar e Criar e depois Criar
+
+# CONHECENDO O ESTÚDIO DE FALA
+- Acesse o site https://speech.microsoft.com/portal
+  - Caso não tenha recurso criado, será necessário criar:
+    - Clicar em Configurações (Engrenagem) -> Criar Novo Recurso
+      - Definir o nome, selecionar a assinatura, região, tipo de preço e o Grupo de Recursos
+  - Selecionar o recurso e clicar em Usar o Recurso -> Clicar no "X" para fechar
+  - Clicar em Conversão de fala em Texto em Tempo Real
+  - Selecionar o Idioma do texto e localizar o arquivo de áudio
+
+
+
+# CONHECENDO O LANGUAGE STUDIO
+1. **Criando um recurso de idioma**
+    - Acesse o Portal do Azure, clique em Create a Resource
+      - Selecione AI + Machine Learning
+        - Language Service -> Create
+        - Selecionar o Grupo de Recursos, região, definir um nome e Pricing Tier
+        - Clicar em Review + Crete -> Create
+2. **Acessar o Language Cognitive do Azure**
+   - Site: https://language.cognitive.azure.com/
+   - Selecionar a subscrição, tipo de resource (Language) e o nome -> Done
+   - **Analisando sentimentos**
+     - Selecionar Classify text -> Analyze sentiment and mine opinions
+     - Selecionar o linguagem do texto e o nome do Recurso
+     - Digitar ou colar o texto a ser analisado
+     - Marcar o checkbox e executar (RUN)
 
 
 --------------------------------------------------------------------------
@@ -139,7 +166,7 @@ Demonstração dos serviços por Categoria
 ## Benefícios da Nuvem
   - **Alta Disponibilidade**: Recursos disponível sempre que necessário. Associado ao SLA.
     - Se concentra em garantir a disponibilidade máxima, independente de interrupções ou eventos que possam ocorrer.
-  - **Escalabilidade**: É a capacidade de ajustar rcursos apra atender à demanda.
+  - **Escalabilidade**: É a capacidade de ajustar recursos para atender à demanda.
     - É possível adicionar mais recursos para lidar melhor com o aumento da demanda.
   - **Elasticidade**: É a possibilidade de aumentar (automaticamente ou manualmente) os recursos, conforme a necessidade.
     - Ex: É possível adicionar máquinas virtuais eou contêineres por meio da expansão.
@@ -166,12 +193,12 @@ Demonstração dos serviços por Categoria
 # - MÓDULO 2 - 
 # COMPONENTES DE ARQUITETURA DO AZURE
 - ## Regiões: 
-  - São compostas de um ou mais datacenteres muito próximos
+  - São compostas de um ou mais datacenters muito próximos
   - Fornecem flexibilidade e escala para reduzir a latência do cliente
-  - Preservam a residência dos dados com uma offerta de abrangente de conformidade
+  - Preservam a residência dos dados com uma oferta de abrangente de conformidade
 - ## Zona de disponibilidade:
   - Fornece proteção contra tempo de inatividade devido a falha do datacenter
-  - Separa fisicamente os datacenteres dentro da mesma região
+  - Separa fisicamente os datacenters dentro da mesma região
   - Cada datacenter é equipado com alimentação, resfriamento e rede independentes
   - Conectadas por meio de redes privadas de fibra ótica
 - ## Pares de região
@@ -184,12 +211,12 @@ Demonstração dos serviços por Categoria
   - Azure Governamental:
     - Fisicamente separada do Azure
     - Fisicamente isolada de implantações que não sejam governos dos EUA
-    - Acesível somente a pessoal verificado e autorizado
+    - Acessível somente a pessoal verificado e autorizado
   - Azure China
     - A Microsoft é o primeiro provedor estrangeiro de serviços de nuvem pública da China, em conformidade com as regulamentações governamentais
-    - Instância separada fisicamente dos serviçoes de nuvem do Azure e operados pela 21Vianet
+    - Instância separada fisicamente dos serviços de nuvem do Azure e operados pela 21Vianet
     - Todos os dados permanecem dentro da China para garantir a conformidade
-- ## Recuros do Azure
+- ## Recursos do Azure
   - São componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem
 - ## Grupo de Recursos
   - É um contêiner para gerenciar e agregar recursos em uma única unidade.
